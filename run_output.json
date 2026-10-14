@@ -1,0 +1,843 @@
+{
+  "metrics": [
+    {
+      "entity_id": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.6666666666666666,
+      "closeness_centrality": 0.6787330316742082,
+      "eigenvector_centrality": 0.537078201670606,
+      "pagerank": 0.17557976529048822,
+      "community_id": 1,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "b762807d-4f28-4f57-804a-f7f6955fa65b",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.45431600201918226,
+      "eigenvector_centrality": 0.38310777405957286,
+      "pagerank": 0.09235386883529834,
+      "community_id": 1,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.2222222222222222,
+      "closeness_centrality": 0.48543689320388345,
+      "eigenvector_centrality": 0.2611787790869408,
+      "pagerank": 0.10067758379868552,
+      "community_id": 0,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "415088ba-bc73-4157-862f-7cfa128591ec",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.36086607858861264,
+      "eigenvector_centrality": 0.0989055567109226,
+      "pagerank": 0.05575044900106007,
+      "community_id": 0,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "d314a117-c273-4450-8999-15cf60cb2955",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.46367851622874806,
+      "eigenvector_centrality": 0.37388770460639004,
+      "pagerank": 0.090045994584379,
+      "community_id": 1,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.5555555555555556,
+      "closeness_centrality": 0.6155950752393982,
+      "eigenvector_centrality": 0.3539000730500945,
+      "pagerank": 0.1729223816375547,
+      "community_id": 2,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "160fbec4-63f7-4b21-b901-c71b4193bb77",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4155124653739612,
+      "eigenvector_centrality": 0.14742161029111606,
+      "pagerank": 0.05407732400547011,
+      "community_id": 2,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.430828147438966,
+      "eigenvector_centrality": 0.24259651980967545,
+      "pagerank": 0.09264919223743992,
+      "community_id": 2,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "0c70baea-30db-4536-8502-58feb6513ac5",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.43923865300146414,
+      "eigenvector_centrality": 0.23656247358187787,
+      "pagerank": 0.0902896110425977,
+      "community_id": 2,
+      "clustering_coefficient": 0.0
+    },
+    {
+      "entity_id": "78180c69-119f-423c-b03a-620b74bca0c6",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.5555555555555556,
+      "closeness_centrality": 0.6787330316742082,
+      "eigenvector_centrality": 0.2918792405760959,
+      "pagerank": 0.07565382956702629,
+      "community_id": 1,
+      "clustering_coefficient": 0.0
+    }
+  ],
+  "communities": [
+    {
+      "id": 0,
+      "size": 2,
+      "entities": [
+        "Suresh Yadav",
+        "Vikram Sinha"
+      ],
+      "avg_risk": 0.6502923401682568
+    },
+    {
+      "id": 1,
+      "size": 4,
+      "entities": [
+        "Rajan Khanna",
+        "Global Finance Corp",
+        "Pragati Foundation",
+        "Priya Sharma"
+      ],
+      "avg_risk": 0.985551017279332
+    },
+    {
+      "id": 2,
+      "size": 4,
+      "entities": [
+        "TechSolutions Ltd",
+        "Arjun Mehta",
+        "Deepak Kumar",
+        "Kavita Rao"
+      ],
+      "avg_risk": 0.944602216917474
+    }
+  ],
+  "key_players": [
+    {
+      "name": "Rajan Khanna",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "Extracted from FIR-2024-MH-001",
+      "id": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+      "created_at": "2026-09-06T15:23:03.183518+00:00",
+      "updated_at": "2026-09-06T15:23:03.183522+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 1.0,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Arjun Mehta",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "cyber-investigation-02",
+      "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+      "created_at": "2026-09-06T15:23:03.183663+00:00",
+      "updated_at": "2026-09-06T15:23:03.183664+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.9,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Global Finance Corp",
+      "type": "Organization",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "intelligence-report-03",
+      "id": "78180c69-119f-423c-b03a-620b74bca0c6",
+      "created_at": "2026-09-06T15:23:03.183748+00:00",
+      "updated_at": "2026-09-06T15:23:03.183749+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.8,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Vikram Sinha",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "digital-forensics-001",
+      "id": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+      "created_at": "2026-09-06T15:23:03.183600+00:00",
+      "updated_at": "2026-09-06T15:23:03.183600+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.7,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Priya Sharma",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "CDR-analysis-march",
+      "id": "b762807d-4f28-4f57-804a-f7f6955fa65b",
+      "created_at": "2026-09-06T15:23:03.183569+00:00",
+      "updated_at": "2026-09-06T15:23:03.183570+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.6,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Pragati Foundation",
+      "type": "Organization",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "NGO-registration",
+      "id": "d314a117-c273-4450-8999-15cf60cb2955",
+      "created_at": "2026-09-06T15:23:03.183644+00:00",
+      "updated_at": "2026-09-06T15:23:03.183645+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.5,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Deepak Kumar",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "bank-fraud-report",
+      "id": "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+      "created_at": "2026-09-06T15:23:03.183705+00:00",
+      "updated_at": "2026-09-06T15:23:03.183706+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.8,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "TechSolutions Ltd",
+      "type": "Organization",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "company-registry-blr",
+      "id": "0c70baea-30db-4536-8502-58feb6513ac5",
+      "created_at": "2026-09-06T15:23:03.183729+00:00",
+      "updated_at": "2026-09-06T15:23:03.183729+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.7,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Kavita Rao",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "employee-records",
+      "id": "160fbec4-63f7-4b21-b901-c71b4193bb77",
+      "created_at": "2026-09-06T15:23:03.183683+00:00",
+      "updated_at": "2026-09-06T15:23:03.183684+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.4,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "name": "Suresh Yadav",
+      "type": "Person",
+      "aliases": [],
+      "description": null,
+      "attributes": {},
+      "confidence": 1.0,
+      "source_documents": [],
+      "source_evidence": "cell-tower-data",
+      "id": "415088ba-bc73-4157-862f-7cfa128591ec",
+      "created_at": "2026-09-06T15:23:03.183623+00:00",
+      "updated_at": "2026-09-06T15:23:03.183624+00:00",
+      "centrality_scores": {},
+      "community_id": null,
+      "risk_score": 0.3,
+      "is_key_player": false,
+      "reviewed_by": null,
+      "reviewed_at": null
+    }
+  ],
+  "patterns": [
+    {
+      "id": "8f13c5d4-0bc8-4dce-87e7-8117622780e1",
+      "type": "dense_cell",
+      "severity": "high",
+      "title": "Dense Cell",
+      "description": "Detected a highly connected cell of 4 entities (density 0.67).",
+      "entity_ids": [
+        "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "78180c69-119f-423c-b03a-620b74bca0c6",
+        "d314a117-c273-4450-8999-15cf60cb2955",
+        "b762807d-4f28-4f57-804a-f7f6955fa65b"
+      ],
+      "evidence": [
+        "High subgraph density"
+      ],
+      "confidence": 0.9,
+      "created_at": "2026-09-06T15:23:03.200937+00:00",
+      "acknowledged": false
+    },
+    {
+      "id": "4b160f49-191f-4263-a1f7-0d5038a76ea4",
+      "type": "dense_cell",
+      "severity": "high",
+      "title": "Dense Cell",
+      "description": "Detected a highly connected cell of 4 entities (density 0.67).",
+      "entity_ids": [
+        "0c70baea-30db-4536-8502-58feb6513ac5",
+        "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "160fbec4-63f7-4b21-b901-c71b4193bb77"
+      ],
+      "evidence": [
+        "High subgraph density"
+      ],
+      "confidence": 0.9,
+      "created_at": "2026-09-06T15:23:03.201207+00:00",
+      "acknowledged": false
+    },
+    {
+      "id": "23d1d86f-c87a-44f4-b2a1-def10857fb83",
+      "type": "star_pattern",
+      "severity": "medium",
+      "title": "Star Pattern",
+      "description": "Rajan Khanna is a central hub connecting otherwise isolated entities.",
+      "entity_ids": [
+        "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "b762807d-4f28-4f57-804a-f7f6955fa65b",
+        "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+        "d314a117-c273-4450-8999-15cf60cb2955",
+        "78180c69-119f-423c-b03a-620b74bca0c6"
+      ],
+      "evidence": [
+        "High degree centrality with disconnected neighbors"
+      ],
+      "confidence": 0.8,
+      "created_at": "2026-09-06T15:23:03.201547+00:00",
+      "acknowledged": false
+    },
+    {
+      "id": "0811a9cd-23ca-4aa7-8ac9-95fa6c6e8f24",
+      "type": "star_pattern",
+      "severity": "medium",
+      "title": "Star Pattern",
+      "description": "Arjun Mehta is a central hub connecting otherwise isolated entities.",
+      "entity_ids": [
+        "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "160fbec4-63f7-4b21-b901-c71b4193bb77",
+        "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "0c70baea-30db-4536-8502-58feb6513ac5",
+        "78180c69-119f-423c-b03a-620b74bca0c6"
+      ],
+      "evidence": [
+        "High degree centrality with disconnected neighbors"
+      ],
+      "confidence": 0.8,
+      "created_at": "2026-09-06T15:23:03.201694+00:00",
+      "acknowledged": false
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "label": "Rajan Khanna",
+        "type": "Person",
+        "size": 32.22222222222222,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 1.00",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 1,
+        "metrics": {
+          "degree": 0.4444444444444444,
+          "betweenness": 0.6666666666666666,
+          "pagerank": 0.17557976529048822
+        },
+        "attributes": {},
+        "source_evidence": "Extracted from FIR-2024-MH-001"
+      },
+      {
+        "id": "b762807d-4f28-4f57-804a-f7f6955fa65b",
+        "label": "Priya Sharma",
+        "type": "Person",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 0.45",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 1,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.0,
+          "pagerank": 0.09235386883529834
+        },
+        "attributes": {},
+        "source_evidence": "CDR-analysis-march"
+      },
+      {
+        "id": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+        "label": "Vikram Sinha",
+        "type": "Person",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 0.81",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 0,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.2222222222222222,
+          "pagerank": 0.10067758379868552
+        },
+        "attributes": {},
+        "source_evidence": "digital-forensics-001"
+      },
+      {
+        "id": "415088ba-bc73-4157-862f-7cfa128591ec",
+        "label": "Suresh Yadav",
+        "type": "Person",
+        "size": 15.555555555555555,
+        "color": "#16a34a",
+        "risk_score": 0.30058468033651353,
+        "risk_breakdown": [
+          "Base centrality: 0.25",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 0,
+        "metrics": {
+          "degree": 0.1111111111111111,
+          "betweenness": 0.0,
+          "pagerank": 0.05575044900106007
+        },
+        "attributes": {},
+        "source_evidence": "cell-tower-data"
+      },
+      {
+        "id": "d314a117-c273-4450-8999-15cf60cb2955",
+        "label": "Pragati Foundation",
+        "type": "Organization",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 0.9422040691173283,
+        "risk_breakdown": [
+          "Base centrality: 0.45",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.05 (Organization)"
+        ],
+        "community": 1,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.0,
+          "pagerank": 0.090045994584379
+        },
+        "attributes": {},
+        "source_evidence": "NGO-registration"
+      },
+      {
+        "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "label": "Arjun Mehta",
+        "type": "Person",
+        "size": 32.22222222222222,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 1.00",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 2,
+        "metrics": {
+          "degree": 0.4444444444444444,
+          "betweenness": 0.5555555555555556,
+          "pagerank": 0.1729223816375547
+        },
+        "attributes": {},
+        "source_evidence": "cyber-investigation-02"
+      },
+      {
+        "id": "160fbec4-63f7-4b21-b901-c71b4193bb77",
+        "label": "Kavita Rao",
+        "type": "Person",
+        "size": 15.555555555555555,
+        "color": "#dc2626",
+        "risk_score": 0.8355653053497437,
+        "risk_breakdown": [
+          "Base centrality: 0.25",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 2,
+        "metrics": {
+          "degree": 0.1111111111111111,
+          "betweenness": 0.0,
+          "pagerank": 0.05407732400547011
+        },
+        "attributes": {},
+        "source_evidence": "employee-records"
+      },
+      {
+        "id": "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "label": "Deepak Kumar",
+        "type": "Person",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 0.45",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.2 (Person)"
+        ],
+        "community": 2,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.0,
+          "pagerank": 0.09264919223743992
+        },
+        "attributes": {},
+        "source_evidence": "bank-fraud-report"
+      },
+      {
+        "id": "0c70baea-30db-4536-8502-58feb6513ac5",
+        "label": "TechSolutions Ltd",
+        "type": "Organization",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 0.9428435623201524,
+        "risk_breakdown": [
+          "Base centrality: 0.45",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.05 (Organization)"
+        ],
+        "community": 2,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.0,
+          "pagerank": 0.0902896110425977
+        },
+        "attributes": {},
+        "source_evidence": "company-registry-blr"
+      },
+      {
+        "id": "78180c69-119f-423c-b03a-620b74bca0c6",
+        "label": "Global Finance Corp",
+        "type": "Organization",
+        "size": 21.11111111111111,
+        "color": "#dc2626",
+        "risk_score": 1.0,
+        "risk_breakdown": [
+          "Base centrality: 1.00",
+          "High alert: dense_cell",
+          "Medium alert: star_pattern",
+          "Medium alert: star_pattern",
+          "Entity type multiplier: x1.05 (Organization)"
+        ],
+        "community": 1,
+        "metrics": {
+          "degree": 0.2222222222222222,
+          "betweenness": 0.5555555555555556,
+          "pagerank": 0.07565382956702629
+        },
+        "attributes": {},
+        "source_evidence": "intelligence-report-03"
+      }
+    ],
+    "edges": [
+      {
+        "id": "7d7bb558-2a52-479d-86de-3d944395d1a9-b762807d-4f28-4f57-804a-f7f6955fa65b",
+        "source": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "target": "b762807d-4f28-4f57-804a-f7f6955fa65b",
+        "type": "ASSOCIATE_OF",
+        "weight": 0.95,
+        "width": 5.75,
+        "color": "#10b981",
+        "source_evidence": "Found in FIR-2024"
+      },
+      {
+        "id": "7d7bb558-2a52-479d-86de-3d944395d1a9-53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+        "source": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "target": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+        "type": "ASSOCIATE_OF",
+        "weight": 0.88,
+        "width": 5.4,
+        "color": "#10b981",
+        "source_evidence": "CDR-analysis-march"
+      },
+      {
+        "id": "7d7bb558-2a52-479d-86de-3d944395d1a9-d314a117-c273-4450-8999-15cf60cb2955",
+        "source": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "target": "d314a117-c273-4450-8999-15cf60cb2955",
+        "type": "OWNS",
+        "weight": 0.9,
+        "width": 5.5,
+        "color": "#14b8a6",
+        "source_evidence": "financial-records-2024"
+      },
+      {
+        "id": "7d7bb558-2a52-479d-86de-3d944395d1a9-78180c69-119f-423c-b03a-620b74bca0c6",
+        "source": "7d7bb558-2a52-479d-86de-3d944395d1a9",
+        "target": "78180c69-119f-423c-b03a-620b74bca0c6",
+        "type": "FINANCIAL_LINK",
+        "weight": 0.7,
+        "width": 4.5,
+        "color": "#3b82f6",
+        "source_evidence": "intelligence-report-03"
+      },
+      {
+        "id": "b762807d-4f28-4f57-804a-f7f6955fa65b-d314a117-c273-4450-8999-15cf60cb2955",
+        "source": "b762807d-4f28-4f57-804a-f7f6955fa65b",
+        "target": "d314a117-c273-4450-8999-15cf60cb2955",
+        "type": "MEMBER_OF",
+        "weight": 0.8,
+        "width": 5.0,
+        "color": "#6366f1",
+        "source_evidence": "NGO-registration"
+      },
+      {
+        "id": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b-415088ba-bc73-4157-862f-7cfa128591ec",
+        "source": "53e3cb67-39f6-4a01-8cb2-d9cc7173932b",
+        "target": "415088ba-bc73-4157-862f-7cfa128591ec",
+        "type": "LOCATION_LINK",
+        "weight": 0.8,
+        "width": 5.0,
+        "color": "#f59e0b",
+        "source_evidence": "CCTV-footage-march"
+      },
+      {
+        "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422-160fbec4-63f7-4b21-b901-c71b4193bb77",
+        "source": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "target": "160fbec4-63f7-4b21-b901-c71b4193bb77",
+        "type": "ASSOCIATE_OF",
+        "weight": 0.88,
+        "width": 5.4,
+        "color": "#10b981",
+        "source_evidence": "digital-forensics-001"
+      },
+      {
+        "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422-83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "source": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "target": "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "type": "ASSOCIATE_OF",
+        "weight": 0.9,
+        "width": 5.5,
+        "color": "#10b981",
+        "source_evidence": "cyber-investigation-02"
+      },
+      {
+        "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422-0c70baea-30db-4536-8502-58feb6513ac5",
+        "source": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "target": "0c70baea-30db-4536-8502-58feb6513ac5",
+        "type": "OWNS",
+        "weight": 0.85,
+        "width": 5.25,
+        "color": "#14b8a6",
+        "source_evidence": "company-registry-blr"
+      },
+      {
+        "id": "e8580363-6179-4f9d-a783-5c0d4a1d4422-78180c69-119f-423c-b03a-620b74bca0c6",
+        "source": "e8580363-6179-4f9d-a783-5c0d4a1d4422",
+        "target": "78180c69-119f-423c-b03a-620b74bca0c6",
+        "type": "FINANCIAL_LINK",
+        "weight": 0.68,
+        "width": 4.4,
+        "color": "#3b82f6",
+        "source_evidence": "intelligence-report-03-B"
+      },
+      {
+        "id": "83ce4752-2903-45e5-a3aa-430f5135f0f9-0c70baea-30db-4536-8502-58feb6513ac5",
+        "source": "83ce4752-2903-45e5-a3aa-430f5135f0f9",
+        "target": "0c70baea-30db-4536-8502-58feb6513ac5",
+        "type": "MEMBER_OF",
+        "weight": 0.82,
+        "width": 5.1,
+        "color": "#6366f1",
+        "source_evidence": "employee-records"
+      }
+    ]
+  },
+  "summary": {
+    "total_nodes": 10,
+    "total_edges": 11,
+    "density": 0.24444444444444444,
+    "avg_clustering": 0.0,
+    "num_communities": 3,
+    "key_players_count": 10,
+    "alerts_count": 4,
+    "high_risk_entities": 9
+  },
+  "risk_scores": {
+    "7d7bb558-2a52-479d-86de-3d944395d1a9": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 1.00",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "b762807d-4f28-4f57-804a-f7f6955fa65b": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "53e3cb67-39f6-4a01-8cb2-d9cc7173932b": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 0.81",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "415088ba-bc73-4157-862f-7cfa128591ec": {
+      "score": 0.30058468033651353,
+      "breakdown": [
+        "Base centrality: 0.25",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "d314a117-c273-4450-8999-15cf60cb2955": {
+      "score": 0.9422040691173283,
+      "breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ]
+    },
+    "e8580363-6179-4f9d-a783-5c0d4a1d4422": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 1.00",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "160fbec4-63f7-4b21-b901-c71b4193bb77": {
+      "score": 0.8355653053497437,
+      "breakdown": [
+        "Base centrality: 0.25",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "83ce4752-2903-45e5-a3aa-430f5135f0f9": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ]
+    },
+    "0c70baea-30db-4536-8502-58feb6513ac5": {
+      "score": 0.9428435623201524,
+      "breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ]
+    },
+    "78180c69-119f-423c-b03a-620b74bca0c6": {
+      "score": 1.0,
+      "breakdown": [
+        "Base centrality: 1.00",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "nodes": [
+    {
+      "id": "2b4065f2-0245-4beb-a316-57ebac77e2ba",
+      "label": "Rajan Khanna",
+      "type": "Person",
+      "size": 32.22222222222222,
+      "color": "#dc2626",
+      "risk_score": 0.95,
+      "risk_breakdown": [
+        "Base centrality: 1.88",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 0,
+      "metrics": {
+        "degree": 0.4444444444444444,
+        "betweenness": 0.6666666666666666,
+        "pagerank": 0.17557976529048822
+      },
+      "attributes": {},
+      "source_evidence": "Extracted from FIR-2024-MH-001"
+    },
+    {
+      "id": "0f7798a8-dc28-43ad-b742-ab6e0862c993",
+      "label": "Priya Sharma",
+      "type": "Person",
+      "size": 21.11111111111111,
+      "color": "#16a34a",
+      "risk_score": 0.332,
+      "risk_breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 0,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.0,
+        "pagerank": 0.09235386883529834
+      },
+      "attributes": {},
+      "source_evidence": "CDR-analysis-march"
+    },
+    {
+      "id": "984e49ab-9fa8-4336-8e94-78160cdf01cd",
+      "label": "Vikram Sinha",
+      "type": "Person",
+      "size": 21.11111111111111,
+      "color": "#16a34a",
+      "risk_score": 0.355,
+      "risk_breakdown": [
+        "Base centrality: 0.81",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 1,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.2222222222222222,
+        "pagerank": 0.10067758379868552
+      },
+      "attributes": {},
+      "source_evidence": "digital-forensics-001"
+    },
+    {
+      "id": "c051de02-f3ba-4016-ba54-55e85d11eb65",
+      "label": "Suresh Yadav",
+      "type": "Person",
+      "size": 15.555555555555555,
+      "color": "#6b7280",
+      "risk_score": 0.05,
+      "risk_breakdown": [
+        "Base centrality: 0.25",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 1,
+      "metrics": {
+        "degree": 0.1111111111111111,
+        "betweenness": 0.0,
+        "pagerank": 0.05575044900106007
+      },
+      "attributes": {},
+      "source_evidence": "cell-tower-data"
+    },
+    {
+      "id": "6c210f30-d388-4a78-817d-4a231272dc7d",
+      "label": "Pragati Foundation",
+      "type": "Organization",
+      "size": 21.11111111111111,
+      "color": "#16a34a",
+      "risk_score": 0.281,
+      "risk_breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ],
+      "community": 0,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.0,
+        "pagerank": 0.090045994584379
+      },
+      "attributes": {},
+      "source_evidence": "NGO-registration"
+    },
+    {
+      "id": "e1abb20e-adda-4bb5-a035-c2198e4745ff",
+      "label": "Arjun Mehta",
+      "type": "Person",
+      "size": 32.22222222222222,
+      "color": "#dc2626",
+      "risk_score": 0.875,
+      "risk_breakdown": [
+        "Base centrality: 1.71",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 2,
+      "metrics": {
+        "degree": 0.4444444444444444,
+        "betweenness": 0.5555555555555556,
+        "pagerank": 0.1729223816375547
+      },
+      "attributes": {},
+      "source_evidence": "cyber-investigation-02"
+    },
+    {
+      "id": "f375066a-0581-45d1-9dcb-998c9cd98669",
+      "label": "Kavita Rao",
+      "type": "Person",
+      "size": 15.555555555555555,
+      "color": "#16a34a",
+      "risk_score": 0.243,
+      "risk_breakdown": [
+        "Base centrality: 0.25",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 2,
+      "metrics": {
+        "degree": 0.1111111111111111,
+        "betweenness": 0.0,
+        "pagerank": 0.05407732400547011
+      },
+      "attributes": {},
+      "source_evidence": "employee-records"
+    },
+    {
+      "id": "6509648d-fe92-4750-904b-c697a8a7ab61",
+      "label": "Deepak Kumar",
+      "type": "Person",
+      "size": 21.11111111111111,
+      "color": "#16a34a",
+      "risk_score": 0.332,
+      "risk_breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.2 (Person)"
+      ],
+      "community": 2,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.0,
+        "pagerank": 0.09264919223743992
+      },
+      "attributes": {},
+      "source_evidence": "bank-fraud-report"
+    },
+    {
+      "id": "8b164d2f-457b-4fef-aed4-79538a35988c",
+      "label": "TechSolutions Ltd",
+      "type": "Organization",
+      "size": 21.11111111111111,
+      "color": "#16a34a",
+      "risk_score": 0.281,
+      "risk_breakdown": [
+        "Base centrality: 0.45",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ],
+      "community": 2,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.0,
+        "pagerank": 0.0902896110425977
+      },
+      "attributes": {},
+      "source_evidence": "company-registry-blr"
+    },
+    {
+      "id": "4ea1def9-133a-4b25-897f-aec0c424eaa0",
+      "label": "Global Finance Corp",
+      "type": "Organization",
+      "size": 21.11111111111111,
+      "color": "#ca8a04",
+      "risk_score": 0.582,
+      "risk_breakdown": [
+        "Base centrality: 1.24",
+        "High alert: dense_cell",
+        "Medium alert: star_pattern",
+        "Entity type multiplier: x1.05 (Organization)"
+      ],
+      "community": 0,
+      "metrics": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.5555555555555556,
+        "pagerank": 0.07565382956702629
+      },
+      "attributes": {},
+      "source_evidence": "intelligence-report-03"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2b4065f2-0245-4beb-a316-57ebac77e2ba-0f7798a8-dc28-43ad-b742-ab6e0862c993",
+      "source": "2b4065f2-0245-4beb-a316-57ebac77e2ba",
+      "target": "0f7798a8-dc28-43ad-b742-ab6e0862c993",
+      "type": "ASSOCIATE_OF",
+      "weight": 0.95,
+      "width": 5.75,
+      "color": "#10b981",
+      "source_evidence": "Found in FIR-2024"
+    },
+    {
+      "id": "2b4065f2-0245-4beb-a316-57ebac77e2ba-984e49ab-9fa8-4336-8e94-78160cdf01cd",
+      "source": "2b4065f2-0245-4beb-a316-57ebac77e2ba",
+      "target": "984e49ab-9fa8-4336-8e94-78160cdf01cd",
+      "type": "ASSOCIATE_OF",
+      "weight": 0.88,
+      "width": 5.4,
+      "color": "#10b981",
+      "source_evidence": "CDR-analysis-march"
+    },
+    {
+      "id": "2b4065f2-0245-4beb-a316-57ebac77e2ba-6c210f30-d388-4a78-817d-4a231272dc7d",
+      "source": "2b4065f2-0245-4beb-a316-57ebac77e2ba",
+      "target": "6c210f30-d388-4a78-817d-4a231272dc7d",
+      "type": "OWNS",
+      "weight": 0.9,
+      "width": 5.5,
+      "color": "#14b8a6",
+      "source_evidence": "financial-records-2024"
+    },
+    {
+      "id": "2b4065f2-0245-4beb-a316-57ebac77e2ba-4ea1def9-133a-4b25-897f-aec0c424eaa0",
+      "source": "2b4065f2-0245-4beb-a316-57ebac77e2ba",
+      "target": "4ea1def9-133a-4b25-897f-aec0c424eaa0",
+      "type": "FINANCIAL_LINK",
+      "weight": 0.7,
+      "width": 4.5,
+      "color": "#3b82f6",
+      "source_evidence": "intelligence-report-03"
+    },
+    {
+      "id": "0f7798a8-dc28-43ad-b742-ab6e0862c993-6c210f30-d388-4a78-817d-4a231272dc7d",
+      "source": "0f7798a8-dc28-43ad-b742-ab6e0862c993",
+      "target": "6c210f30-d388-4a78-817d-4a231272dc7d",
+      "type": "MEMBER_OF",
+      "weight": 0.8,
+      "width": 5.0,
+      "color": "#6366f1",
+      "source_evidence": "NGO-registration"
+    },
+    {
+      "id": "984e49ab-9fa8-4336-8e94-78160cdf01cd-c051de02-f3ba-4016-ba54-55e85d11eb65",
+      "source": "984e49ab-9fa8-4336-8e94-78160cdf01cd",
+      "target": "c051de02-f3ba-4016-ba54-55e85d11eb65",
+      "type": "LOCATION_LINK",
+      "weight": 0.8,
+      "width": 5.0,
+      "color": "#f59e0b",
+      "source_evidence": "CCTV-footage-march"
+    },
+    {
+      "id": "e1abb20e-adda-4bb5-a035-c2198e4745ff-f375066a-0581-45d1-9dcb-998c9cd98669",
+      "source": "e1abb20e-adda-4bb5-a035-c2198e4745ff",
+      "target": "f375066a-0581-45d1-9dcb-998c9cd98669",
+      "type": "ASSOCIATE_OF",
+      "weight": 0.88,
+      "width": 5.4,
+      "color": "#10b981",
+      "source_evidence": "digital-forensics-001"
+    },
+    {
+      "id": "e1abb20e-adda-4bb5-a035-c2198e4745ff-6509648d-fe92-4750-904b-c697a8a7ab61",
+      "source": "e1abb20e-adda-4bb5-a035-c2198e4745ff",
+      "target": "6509648d-fe92-4750-904b-c697a8a7ab61",
+      "type": "ASSOCIATE_OF",
+      "weight": 0.9,
+      "width": 5.5,
+      "color": "#10b981",
+      "source_evidence": "cyber-investigation-02"
+    },
+    {
+      "id": "e1abb20e-adda-4bb5-a035-c2198e4745ff-8b164d2f-457b-4fef-aed4-79538a35988c",
+      "source": "e1abb20e-adda-4bb5-a035-c2198e4745ff",
+      "target": "8b164d2f-457b-4fef-aed4-79538a35988c",
+      "type": "OWNS",
+      "weight": 0.85,
+      "width": 5.25,
+      "color": "#14b8a6",
+      "source_evidence": "company-registry-blr"
+    },
+    {
+      "id": "e1abb20e-adda-4bb5-a035-c2198e4745ff-4ea1def9-133a-4b25-897f-aec0c424eaa0",
+      "source": "e1abb20e-adda-4bb5-a035-c2198e4745ff",
+      "target": "4ea1def9-133a-4b25-897f-aec0c424eaa0",
+      "type": "FINANCIAL_LINK",
+      "weight": 0.68,
+      "width": 4.4,
+      "color": "#3b82f6",
+      "source_evidence": "intelligence-report-03-B"
+    },
+    {
+      "id": "6509648d-fe92-4750-904b-c697a8a7ab61-8b164d2f-457b-4fef-aed4-79538a35988c",
+      "source": "6509648d-fe92-4750-904b-c697a8a7ab61",
+      "target": "8b164d2f-457b-4fef-aed4-79538a35988c",
+      "type": "MEMBER_OF",
+      "weight": 0.82,
+      "width": 5.1,
+      "color": "#6366f1",
+      "source_evidence": "employee-records"
+    }
+  ]
+}
